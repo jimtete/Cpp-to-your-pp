@@ -6,6 +6,8 @@ int main(){
 	
 	std::cin >> favouriteNumber;
 	
+	std::cout<< favouriteNumber << std::endl;
+	
 	std::cout << "That is my favourite number too"<< std::endl;
 	
 	return 0;
