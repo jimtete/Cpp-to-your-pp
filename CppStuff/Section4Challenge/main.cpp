@@ -1,18 +1,24 @@
 #include <iostream>
 
+
+//using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+
 int main(){
 	
 	int favouriteNum;
-	std::cout<<"Enter your favourite number between 1 and 100: ";
+	cout<<"Enter your favourite number between 1 and 100: ";
 	
-	std::cin>>favouriteNum;
+	cin>>favouriteNum;
 	
 	if (favouriteNum>100 || favouriteNum<1){
 		return 0;
 	}
 	
-	std::cout<<"Amazing that's my favourite number too!"<<std::endl;
-	std::cout<<"No really..., "<<favouriteNum<<" is my favourite number."<<std::endl;
+	cout<<"Amazing that's my favourite number too!"<<endl;
+	cout<<"No really..., "<<favouriteNum<<" is my favourite number."<<endl;
 	
 	return 0;
 }
