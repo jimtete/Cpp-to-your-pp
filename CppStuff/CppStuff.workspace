@@ -4,7 +4,8 @@
   <Project Name="Project2" Path="Project2/Project2.project" Active="No"/>
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
   <Project Name="Section4Challenge" Path="Section4Challenge/Section4Challenge.project" Active="No"/>
-  <Project Name="BasicIO" Path="BasicIO/BasicIO.project" Active="Yes"/>
+  <Project Name="BasicIO" Path="BasicIO/BasicIO.project" Active="No"/>
+  <Project Name="ArrayExcercise" Path="ArrayExcercise/ArrayExcercise.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,10 @@
       <Project Name="FirstProgram" ConfigName="Debug"/>
       <Project Name="Section4Challenge" ConfigName="Debug"/>
       <Project Name="BasicIO" ConfigName="Debug"/>
+      <Project Name="InitializingVariables" ConfigName="Debug"/>
+      <Project Name="SizeOfExample" ConfigName="Debug"/>
+      <Project Name="Section5Challenge" ConfigName="Debug"/>
+      <Project Name="ArrayExcercise" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +26,10 @@
       <Project Name="FirstProgram" ConfigName="Release"/>
       <Project Name="Section4Challenge" ConfigName="Release"/>
       <Project Name="BasicIO" ConfigName="Release"/>
+      <Project Name="InitializingVariables" ConfigName="Release"/>
+      <Project Name="SizeOfExample" ConfigName="Release"/>
+      <Project Name="Section5Challenge" ConfigName="Release"/>
+      <Project Name="ArrayExcercise" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
