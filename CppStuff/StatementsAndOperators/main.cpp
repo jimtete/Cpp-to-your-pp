@@ -76,5 +76,19 @@ int main(){
 	cout<<"The sum of the three numbers is: "<<total<<endl;
 	cout<<"The average of the three numbers is: "<<avg<<endl;
 	
+
+//69. Testing for equality
+
+	cout<<boolalpha;
+	bool state{false};
+	bool noState{false};
+	
+	a=15;b=16;//Change em
+	
+	state=(a==b);
+	noState=(a!=b);
+	cout<<"Equals: "<<state<<endl;
+	cout<<"Not equals: "<<noState<<endl;
+	
 	return 0;
 }
