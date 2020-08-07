@@ -1,10 +1,10 @@
 #include <iostream>
 
 
-//using namespace std;
-using std::cout;
-using std::cin;
-using std::endl;
+using namespace std;
+//using std::cout;
+//using std::cin;
+//using std::endl;
 
 int main(){
 	

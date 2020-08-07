@@ -1,16 +1,8 @@
 .PHONY: clean All
 
 All:
-<<<<<<< Updated upstream
-	@echo "----------Building project:[ Section4Challenge - Debug ]----------"
-	@cd "Section4Challenge" && "$(MAKE)" -f  "Section4Challenge.mk"
+	@echo "----------Building project:[ StatementsAndOperators - Debug ]----------"
+	@cd "StatementsAndOperators" && "$(MAKE)" -f  "StatementsAndOperators.mk"
 clean:
-	@echo "----------Cleaning project:[ Section4Challenge - Debug ]----------"
-	@cd "Section4Challenge" && "$(MAKE)" -f  "Section4Challenge.mk" clean
-=======
-	@echo "----------Building project:[ Section7Challenge - Debug ]----------"
-	@cd "Section7Challenge" && "$(MAKE)" -f  "Section7Challenge.mk"
-clean:
-	@echo "----------Cleaning project:[ Section7Challenge - Debug ]----------"
-	@cd "Section7Challenge" && "$(MAKE)" -f  "Section7Challenge.mk" clean
->>>>>>> Stashed changes
+	@echo "----------Cleaning project:[ StatementsAndOperators - Debug ]----------"
+	@cd "StatementsAndOperators" && "$(MAKE)" -f  "StatementsAndOperators.mk" clean
