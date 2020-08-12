@@ -52,6 +52,7 @@ int main(){
 	
 	
 //67. Increment and Decrement
+cout<<"-----------------------"<<endl;
 
 	int counter=10;
 	int result2{0};
@@ -64,6 +65,7 @@ int main(){
 	
 	
 //68. Mixed Expressions and Compressions
+cout<<"-----------------------"<<endl;
 	
 	long int a,b,c,total;
 	a=16;b=33;c=100;
@@ -78,6 +80,7 @@ int main(){
 	
 
 //69. Testing for equality
+cout<<"-----------------------"<<endl;
 
 	cout<<boolalpha;
 	bool state{false};
@@ -89,6 +92,22 @@ int main(){
 	noState=(a!=b);
 	cout<<"Equals: "<<state<<endl;
 	cout<<"Not equals: "<<noState<<endl;
+	
+//70. Relational operators
+cout<<"-----------------------"<<endl;
+	a=10;b=20;
+	cout<<a<<" > "<<b<<" : "<< (a>b)<<endl;
+	cout<<a<<" >= "<<b<<" : "<< (a>=b)<<endl;
+	cout<<a<<" <= "<<b<<" : "<< (a<=b)<<endl;
+	cout<<a<<" < "<<b<<" : "<< (a<b)<<endl;
+	
+	cout<<"-----------------------"<<endl;
+//71. Logical operators
+	cout<<"Enter a number between "<<a<<" and "<<b<<": ";
+	cin>>c;
+	bool withinBounds=0;
+	withinBounds=c>=a&&c<=b;
+	cout<<"Is number "<<c<<" between "<<a<<" and "<<b<<" : "<<withinBounds<<endl;
 	
 	return 0;
 }

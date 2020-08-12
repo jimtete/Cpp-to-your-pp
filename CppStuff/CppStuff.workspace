@@ -7,7 +7,8 @@
   <Project Name="BasicIO" Path="BasicIO/BasicIO.project" Active="No"/>
   <Project Name="ArrayExcercise" Path="ArrayExcercise/ArrayExcercise.project" Active="No"/>
   <Project Name="Section7Challenge" Path="Section7Challenge/Section7Challenge.project" Active="No"/>
-  <Project Name="StatementsAndOperators" Path="StatementsAndOperators/StatementsAndOperators.project" Active="Yes"/>
+  <Project Name="StatementsAndOperators" Path="StatementsAndOperators/StatementsAndOperators.project" Active="No"/>
+  <Project Name="Section8Challenge" Path="Section8Challenge/Section8Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -22,6 +23,7 @@
       <Project Name="ArrayExcercise" ConfigName="Debug"/>
       <Project Name="Section7Challenge" ConfigName="Debug"/>
       <Project Name="StatementsAndOperators" ConfigName="Debug"/>
+      <Project Name="Section8Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -36,6 +38,7 @@
       <Project Name="ArrayExcercise" ConfigName="Release"/>
       <Project Name="Section7Challenge" ConfigName="Release"/>
       <Project Name="StatementsAndOperators" ConfigName="Release"/>
+      <Project Name="Section8Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
