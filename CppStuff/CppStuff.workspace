@@ -12,7 +12,8 @@
   <VirtualDirectory Name="Section 9">
     <Project Name="IfStatement" Path="IfStatement/IfStatement.project" Active="No"/>
     <Project Name="IfElseStatement" Path="IfElseStatement/IfElseStatement.project" Active="No"/>
-    <Project Name="Nested_If_Statements" Path="Nested_If_Statements/Nested_If_Statements.project" Active="Yes"/>
+    <Project Name="Nested_If_Statements" Path="Nested_If_Statements/Nested_If_Statements.project" Active="No"/>
+    <Project Name="SwitchStatement" Path="SwitchStatement/SwitchStatement.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
@@ -32,6 +33,7 @@
       <Project Name="IfStatement" ConfigName="Debug"/>
       <Project Name="IfElseStatement" ConfigName="Debug"/>
       <Project Name="Nested_If_Statements" ConfigName="Debug"/>
+      <Project Name="SwitchStatement" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -50,6 +52,7 @@
       <Project Name="IfStatement" ConfigName="Release"/>
       <Project Name="IfElseStatement" ConfigName="Release"/>
       <Project Name="Nested_If_Statements" ConfigName="Release"/>
+      <Project Name="SwitchStatement" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
