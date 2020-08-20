@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SwitchStatement - Debug ]----------"
-	@cd "SwitchStatement" && "$(MAKE)" -f  "SwitchStatement.mk"
+	@echo "----------Building project:[ ForLoop - Debug ]----------"
+	@cd "ForLoop" && "$(MAKE)" -f  "ForLoop.mk"
 clean:
-	@echo "----------Cleaning project:[ SwitchStatement - Debug ]----------"
-	@cd "SwitchStatement" && "$(MAKE)" -f  "SwitchStatement.mk" clean
+	@echo "----------Cleaning project:[ ForLoop - Debug ]----------"
+	@cd "ForLoop" && "$(MAKE)" -f  "ForLoop.mk" clean

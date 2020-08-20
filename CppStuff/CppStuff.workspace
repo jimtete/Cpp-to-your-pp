@@ -13,7 +13,9 @@
     <Project Name="IfStatement" Path="IfStatement/IfStatement.project" Active="No"/>
     <Project Name="IfElseStatement" Path="IfElseStatement/IfElseStatement.project" Active="No"/>
     <Project Name="Nested_If_Statements" Path="Nested_If_Statements/Nested_If_Statements.project" Active="No"/>
-    <Project Name="SwitchStatement" Path="SwitchStatement/SwitchStatement.project" Active="Yes"/>
+    <Project Name="SwitchStatement" Path="SwitchStatement/SwitchStatement.project" Active="No"/>
+    <Project Name="ConditionalExpression" Path="ConditionalExpression/ConditionalExpression.project" Active="No"/>
+    <Project Name="ForLoop" Path="ForLoop/ForLoop.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
@@ -34,6 +36,8 @@
       <Project Name="IfElseStatement" ConfigName="Debug"/>
       <Project Name="Nested_If_Statements" ConfigName="Debug"/>
       <Project Name="SwitchStatement" ConfigName="Debug"/>
+      <Project Name="ConditionalExpression" ConfigName="Debug"/>
+      <Project Name="ForLoop" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -53,6 +57,8 @@
       <Project Name="IfElseStatement" ConfigName="Release"/>
       <Project Name="Nested_If_Statements" ConfigName="Release"/>
       <Project Name="SwitchStatement" ConfigName="Release"/>
+      <Project Name="ConditionalExpression" ConfigName="Release"/>
+      <Project Name="ForLoop" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
