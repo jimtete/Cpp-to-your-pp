@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Workspace Name="CppUbuntu" Database="" Version="10.0.0"/>
+<CodeLite_Workspace Name="CppUbuntu" Database="" Version="10.0.0">
+  <Project Name="testProject" Path="testProject/testProject.project" Active="No"/>
+  <VirtualDirectory Name="Section 9">
+    <Project Name="Test2" Path="Test2/Test2.project" Active="Yes"/>
+  </VirtualDirectory>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="testProject" ConfigName="Debug"/>
+      <Project Name="Test2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="testProject" ConfigName="Release"/>
+      <Project Name="Test2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
