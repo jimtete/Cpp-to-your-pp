@@ -2,18 +2,24 @@
 <CodeLite_Workspace Name="CppUbuntu" Database="" Version="10.0.0">
   <Project Name="testProject" Path="testProject/testProject.project" Active="No"/>
   <VirtualDirectory Name="Section 9">
-    <Project Name="Test2" Path="Test2/Test2.project" Active="Yes"/>
+    <Project Name="Test2" Path="Test2/Test2.project" Active="No"/>
+    <Project Name="Epanaliptiko" Path="Epanaliptiko/Epanaliptiko.project" Active="Yes"/>
   </VirtualDirectory>
+  <Project Name="Test3" Path="Test3/Test3.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="testProject" ConfigName="Debug"/>
       <Project Name="Test2" ConfigName="Debug"/>
+      <Project Name="Epanaliptiko" ConfigName="Debug"/>
+      <Project Name="Test3" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="testProject" ConfigName="Release"/>
       <Project Name="Test2" ConfigName="Release"/>
+      <Project Name="Epanaliptiko" ConfigName="Release"/>
+      <Project Name="Test3" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

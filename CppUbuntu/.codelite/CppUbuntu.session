@@ -4,9 +4,9 @@
   <wxString Value="/home/emmastoner/Desktop/git/Cpp-to-your-pp/CppUbuntu/CppUbuntu.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/emmastoner/Desktop/git/Cpp-to-your-pp/CppUbuntu/testProject/main.cpp" Name="FileName"/>
+      <wxString Value="/home/emmastoner/Desktop/git/Cpp-to-your-pp/CppUbuntu/Epanaliptiko/main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="11" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
